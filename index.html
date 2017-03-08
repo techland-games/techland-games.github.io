@@ -3,5 +3,10 @@ layout: default
 title: Open Source @ Techland Games
 ---
 <div>
-    <h1>Public repositories</h1>
+    <h1>Available projects</h1>
+    <ul>
+        {% for repository in site.github.public_repositories %}
+            <li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
+        {% endfor %}
+    </ul>
 </div>
