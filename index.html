@@ -1,12 +1,16 @@
 ---
 layout: default
 title: Open Source @ Techland Games
+header_title: Open&nbsp;Source at Techland&nbsp;Games
 ---
-<div>
-    <h1>Available projects</h1>
-    <ul>
-        {% for repository in site.github.public_repositories %}
-            <li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
+<ul class="repository-list">
+    {% for repository in site.github.public_repositories %}
+        <li class="item">
+            <a href="{{ repository.html_url }}" title="{{ repository.name }}"></a>
+            <h2 class="item__title">{{ repository.name }}</h2>
+            <h3 class="item__language lang__{{ repository.language | downcase }}">{{ repository.language }}</h3>
+            <p class="item__description">{{ repository.description }}</p>
+            <p class="item__link"><i class="fa fa-github"></i> {{ repository.full_name }}</p>
+        </li>
+    {% endfor %}
+</ul>
