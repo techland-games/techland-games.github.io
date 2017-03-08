@@ -20,5 +20,5 @@ $ bundle exec jekyll serve
 To keep the dependencies updated:
 
 ```
-bundle update
+$ bundle update
 ```
