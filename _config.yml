@@ -1,4 +1,4 @@
-name: Open Source @ Techland Games
+name: Open Source at Techland
 markdown: kramdown
 
 exclude: [readme.md, Gemfile, Gemfile.lock]

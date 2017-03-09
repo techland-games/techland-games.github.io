@@ -1,6 +1,6 @@
-#Open Source at Techland Games
+#Open Source at Techland
 
-This is the Github Pages repository for the [Open Source @ Techland Games](techland-games.github.io) site.
+This is the Github Pages repository for the [Open Source at Techland](techland-games.github.io) site.
 
 ##Local setup
 
