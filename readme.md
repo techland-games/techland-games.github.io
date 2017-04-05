@@ -1,8 +1,8 @@
-#Open Source at Techland
+# Open Source at Techland
 
 This is the Github Pages repository for the [Open Source at Techland](techland-games.github.io) site.
 
-##Local setup
+## Local setup
 
 Ruby 2.1.0 or higher is required to self-serve the site. Bundler gem is used to install necessary dependencies for the Jekyll site.
 
